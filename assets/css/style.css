@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+* {
+    outline: none !important;
+}
+
+body {
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Viga', sans-serif;
+    color: #303030;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-family: 'Viga', sans-serif;
+    color: #808080;
+}
+
+.ha1 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Viga', sans-serif;
+    color: #404040;
+}
+
+.ha6 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Viga', sans-serif;
+    color: #606060;
+}
+
+.bookdemo {
+    border-radius: 10px;
+    background: #07b8a9;
+    color: #ffffff !important;
+    padding: 10px 34px 10px 34px;
+    font-family: 'Viga', sans-serif;
+    font-weight: bold;
+}
+
+.bookdemo:hover {
+    color: #ffffff !important;
+    background: #06a799;
+    text-decoration: none;
+}
+
+.tryitfree {
+    border-radius: 10px;
+    background: #d39b01;
+    color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Viga', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tryitfree:hover {
+    color: #ffffff;
+    background: #ad7f00;
+    text-decoration: none;
+}
+
+.tryitforfree {
+    color: #07b8a9 !important;
+    font-family: 'Viga', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tryitforfree:hover {
+    color: #06a799 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.powerfull {
+    margin-top: 20px;
+    color: #808080;
+    letter-spacing: 3px;
+    font-family: 'Viga', sans-serif;
+}
+
+.ahayyy {
+    color: #808080;
+    font-family: 'Viga', sans-serif;
+}
+
+.demotext {
+    color: #07b8a9;
+    font-family: 'Viga', sans-serif;
+    font-weight: 500;
+}
+
+.demotext:hover {
+    color: #06a799;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+    font-family: 'Viga', sans-serif;
+    color: #303030;
+}
+
+.bg {
+    height: 90vh;
+    background: #ffffff;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+}
+
+#Kontener {
+    display: none;
+}
+
+.bg-left {
+    padding-top: 70px;
+    padding-left: 25px;
+}
+
+.bg-right {
+    padding-top: 100px;
+    padding-right: 40px;
+}
+
+#show-mobile {
+    display: none;
+}
+
+.img-hide-mobile {
+    width: 96%;
+    height: auto;
+}
+
+.navbar-toggler {
+    background-color: #07b8a9 !important;
+    border: 1px solid transparent;
+}
+
+.navbar-toggler:hover {
+    background-color: #08a093 !important;
+    border: 1px solid transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(251,251,251, 2)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+
+/*Animasi*/
+
+.animates {
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+
+/*Animasi*/
+
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 868px) {
+    #show-mobile {
+        display: block;
+    }
+    #hide-mobile {
+        display: none;
+    }
+    .img-show-mobile {
+        width: 90%;
+        height: auto;
+    }
+    .bg-left {
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+    .ha1 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Viga', sans-serif;
+        color: #404040;
+    }
+    .ha6 {
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Viga', sans-serif;
+        color: #606060;
+    }
+    .powerfull {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #808080;
+        letter-spacing: 3px;
+        font-family: 'Viga', sans-serif;
+    }
+    .ahayyy {
+        font-size: 10px;
+        color: #808080;
+        font-family: 'Viga', sans-serif;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 10px !important;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trime Studios</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="Loader()">
+    <div id="loader">
+        <img src="assets/image/loaderr.gif" style="margin-left: 10%;" width="140px" height="140px">
+    </div>
+    <div id="Kontener">
+        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+            <a href="#" class="navbar-brand d-flex w-50 mr-auto">Trime Studios&nbsp;<i class="fa fa-check-circle guud" aria-hidden="true"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <ul class="navbar-nav w-100 justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="# ">Services</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="# ">Plans</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="# ">Offers</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end ">
+                    <li class="nav-item ">
+                        <a class="nav-link tryitforfree" href="# ">Try it for free</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link bookdemo" href="# ">Book Demo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="bg bg-left">
+                        <img src="assets/image/heyho.png" class="img-show-mobile animates" id="show-mobile">
+                        <h6 class="ha6"><i class="fa fa-star" style="color: #f8d408" aria-hidden="true"></i>&nbsp;SIMPLE BUSINESS DEVELOPMENT TOOLS</h6>
+                        <h1 class="ha1">Engage Your<br>Audience in<br>Minutes</h1>
+                        <p class="powerfull">Powerfull Business Development Tool for all size of Companies</p>
+                        <br>
+                        <a href="#" class="tryitfree">Try it free</a> <a href="#" class="demotext">Get a free demo</a>
+                        <br><br>
+                        <p class="ahayyy"><i class="fa fa-check-circle" style="color: #2cb62c" aria-hidden="true"></i>&nbsp;NO CREDIT CARD &nbsp;&nbsp;<i class="fa fa-check-circle" style="color: #2cb62c" aria-hidden="true"></i>&nbsp;REQUIRED NO SOFTWARE TO INSTALL</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6" id="hide-mobile">
+                    <div class="bg bg-right">
+                        <img src="assets/image/heyho.png" class="img-hide-mobile animates">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js "></script>
+    <script>
+        var loader;
+
+        function Loader() {
+            loader = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("Kontener").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
