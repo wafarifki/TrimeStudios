@@ -1,6 +1,13 @@
 # TrimeStudios
 Trime Studios is a tool to grow your business with the utmost ease. Without having to install software, growing your business is as easy as clapping your hands.
 
+# ScreenShoot
+ -Desktop Version
+ <img src="https://raw.githubusercontent.com/wafarifki/TrimeStudios/main/assets/image/Desktop.JPG">
+ 
+ -Mobile Version
+ <img src="https://raw.githubusercontent.com/wafarifki/TrimeStudios/main/assets/image/Mobile.JPG">
+
 this is implementation design from <a href="https://www.uplabs.com/amptus_design" target="_blank">Amptus_Design</a>.
 
 Use for learn.
